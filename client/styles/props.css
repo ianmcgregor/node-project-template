@@ -1,0 +1,30 @@
+/**
+ * Global variables
+ *
+ * Example usage:
+ *
+ * .Component {
+ *     color: var(--text-color);
+ *     font-size: var(--font-size-md);
+ * }
+ */
+
+:root {
+    /* font family */
+
+    --font-normal: monospace;
+
+    /* font size */
+
+    --font-size-md: 16px;
+    --font-size-lg: 24px;
+
+    /* color palette */
+
+    --color-bg: #fff;
+    --color-text: #000;
+
+    /* layout */
+
+    --margin: 1em;
+}

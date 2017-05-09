@@ -1,0 +1,29 @@
+/**
+ * Media Queries in Mobile First order
+ *
+ * Example usage:
+ *
+ * .Component {
+ *     font-size: var(--font-size-sm);
+ *
+ *     @media (--sm) {
+ *         font-size: var(--font-size-md);
+ *     }
+ *
+ *     @media (--md) {
+ *         font-size: var(--font-size-lg);
+ *     }
+ *
+ *     @media (--lg) {
+ *         font-size: var(--font-size-xlg);
+ *     }
+ * }
+ */
+
+@custom-media --min (max-width: 639px);
+@custom-media --sm (min-width: 640px);
+@custom-media --md (min-width: 960px);
+@custom-media --lg (min-width: 1200px);
+@custom-media --xlg (min-width: 1440px);
+@custom-media --portrait (orientation: portrait);
+@custom-media --landscape (orientation: landscape);

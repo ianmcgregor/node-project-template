@@ -1,0 +1,4 @@
+--recursive
+--reporter spec
+--require ./test/bootstrap
+--timeout 10000

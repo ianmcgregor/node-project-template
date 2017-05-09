@@ -1,0 +1,26 @@
+/**
+ * HTML section defaults
+ */
+
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-normal), sans-serif;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 0;
+    text-size-adjust: none;
+    -webkit-touch-callout: none;
+
+    > * {
+        overflow-x: hidden;
+    }
+}
