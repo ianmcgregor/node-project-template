@@ -210,7 +210,7 @@ A detailed report highlighting any problems will be output to the console.
 
 ### Testing
 
-A testing set up is included, utilising the [Mocha](http://visionmedia.github.io/mocha/) framework and [Chai](http://chaijs.com/) assertion library. A report highlighting any failed test will be output to the console.
+A testing set up is included, utilising the [Mocha](http://mochajs.org/) framework and [Chai](http://chaijs.com/) assertion library. A report highlighting any failed test will be output to the console.
 
 Single run, with linting:
 
